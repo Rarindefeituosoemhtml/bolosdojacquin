@@ -91,9 +91,10 @@ height: 100px;
        width: 1920px;
          height: 600px;
            background-image: url(./assets/imgs/banner.png);
-             background-size: 1920px 700px;
+             background-size: 1920px 600px;
                aspect-ratio: 3.2;
                  background-repeat: no-repeat;
+                 
 }
 
 
@@ -206,6 +207,7 @@ filter: drop-shadow(0 10px 2px #00000025);
 
   
 }
+
 footer{
   width:1894px;  
   height: 100px;
@@ -214,9 +216,25 @@ footer{
   justify-content: center;
   align-items: center;
   font-size: 20px;
+  text-align: center;
 
+}
+
+footer p{
+  align-items: center;
   
 }
+
+/* media */
+@media screen and (max-width:600px) {
+ 
+  .banner {
+    aspect-ratio: 2.0;
+  }
+
+}
+
+
 
 
 
