@@ -137,3 +137,13 @@ height: 100px;
  background-color: rgb(162, 171, 255);
  width: 45%;
 }
+
+.cadastro_img{
+display: flex;
+
+}
+
+.valor_peso{
+display: flex;
+}
+
